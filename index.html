@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Github User Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <p class="limit-warning">
+          This app is limited to only 60 request per hour.
+        </p>
+        <form class="search-form">
+          <div class="search-form-field">
+            <input
+              type="text"
+              id="search"
+              placeholder="Please enter username..."
+              class="search-form-input"
+            />
+          </div>
+          <div class="search-form-field">
+            <input
+              type="submit"
+              class="search-form-submit"
+              value="Search User"
+            />
+          </div>
+        </form>
+      </div>
+      <div class="user-found"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
